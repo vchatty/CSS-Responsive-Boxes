@@ -1,3 +1,119 @@
-body {
-  background: papayawhip;
+
+* {
+  box-sizing: border-box;
+  background: blanchedalmond;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.a-flex {
+  border: solid black 2px;
+  min-width: auto;
+  min-height: 100px;
+  flex:100%; 
+  margin: 5px; 
+
+    /*TEXT CSS*/
+
+  align-items: center;
+   justify-content: center;
+   background-color: pink;
+   font-size: 56px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.b-flex {
+  border: solid black 2px;
+  display: flex;
+  min-width: 75%;
+  min-height: 300px;
+  flex: 100%;
+  margin: 5px; 
+  flex-grow: 3;
+  flex-shrink: 3;
+
+    /*TEXT CSS*/
+  
+   align-items: center;
+   justify-content: center;
+   background-color: skyblue;
+   font-size: 56px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  .c-flex { 
+  border: solid black 2px;
+  width: 150px;
+  height: 150px;  
+  margin: 5px; 
+
+  /*TEXT CSS*/
+
+  align-items: center;
+   justify-content: center;
+   background-color:plum;
+   font-size: 56px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.d-flex {
+  border: solid black 2px;
+  width: 150px;
+  height: 150px; 
+  flex: 30%;
+  margin: 5px; 
+
+    /*TEXT CSS*/
+  
+    align-items: center;
+   justify-content: center;
+   background-color: yellow;
+   font-size: 56px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.e-flex {
+  border: solid black 2px;
+  width: auto;
+  height: 150px; 
+  flex: 30%;
+  margin: 5px; 
+
+
+    /*TEXT CSS*/
+  
+    align-items: center;
+   justify-content: center;
+   background-color: springgreen;
+   font-size: 56px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.f-flex {
+  border: solid black 2px;
+  min-width: auto;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex:100%; 
+  margin: 5px; 
+
+    /*TEXT CSS*/
+  
+   align-items: center;
+   justify-content: center;
+   background-color: aquamarine;
+   font-size: 56px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ @media (min-width: 600px) {
+  .f-flex {
+    flex-direction: row;
+  }
 }
